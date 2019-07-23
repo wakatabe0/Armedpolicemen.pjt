@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LIB">
+      <UniqueIdentifier>{113049ad-8f97-405e-b7fa-c2eb0d7c72af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE">
+      <UniqueIdentifier>{e0294728-b669-4576-bbe8-b27e38689412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG">
+      <UniqueIdentifier>{b647d201-8c7c-4a86-b3a0-22febd645a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014">
+      <UniqueIdentifier>{d7b72f2d-ce20-4a7b-a5c7-094a09309868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Mesh">
+      <UniqueIdentifier>{56d93198-54a8-4d9f-9c63-bb879f760929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Base">
+      <UniqueIdentifier>{ba024894-c1cb-4329-8346-bcd2aaefd671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Image">
+      <UniqueIdentifier>{bf9539db-f2be-4d64-b289-6430eaa94e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Effect">
+      <UniqueIdentifier>{03445765-e85d-46d1-82ee-3157901d40fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Font">
+      <UniqueIdentifier>{b2e4e8df-22cb-4bce-98c5-89e914fb842d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Object">
+      <UniqueIdentifier>{71aa57be-00e9-420b-b6f7-c1f785276368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DI2014">
+      <UniqueIdentifier>{5862f99e-0b18-46c5-8c66-f794bd25d4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks">
+      <UniqueIdentifier>{4721d42f-e82c-4cec-9cb0-53db628948c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DM2008">
+      <UniqueIdentifier>{75e91e8f-6efb-4a79-aa56-2cbcb35d2ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Title">
+      <UniqueIdentifier>{9b91ad59-5fab-4b3d-8169-b7c99ba28f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Ending">
+      <UniqueIdentifier>{86e5f466-0e58-4888-b822-ff4676a98c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Game">
+      <UniqueIdentifier>{4832fbd4-d381-4787-a64e-e5037d62fce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Item">
+      <UniqueIdentifier>{13d8288f-62bb-4372-9a05-73c265f67e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Shot">
+      <UniqueIdentifier>{591e7a5c-f17f-4cb2-ad36-b416fbe01cee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myLib.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Mesh.cpp">
+      <Filter>LIB\DG2014\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Texture.cpp">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_VertexBuffer.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_VertexContainer.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_IndexBuffer.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_InputLayout.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Image.cpp">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Effect.cpp">
+      <Filter>LIB\DG2014\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Font.cpp">
+      <Filter>LIB\DG2014\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_DGObject.cpp">
+      <Filter>LIB\DG2014\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_MeshSOBFile.cpp">
+      <Filter>LIB\DG2014\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="xnacollision.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>MyPG</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPG.cpp">
+      <Filter>MyPG</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Ver3_6.cpp">
+      <Filter>LIB\DG2014</Filter>
+    </ClCompile>
+    <ClCompile Include="DI2014_Ver3_5.cpp">
+      <Filter>LIB\DI2014</Filter>
+    </ClCompile>
+    <ClCompile Include="Dm2008_Ver1_4.cpp">
+      <Filter>LIB\DM2008</Filter>
+    </ClCompile>
+    <ClCompile Include="BChara.cpp">
+      <Filter>MyPG</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Title.cpp">
+      <Filter>MyPG\Tasks\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Game.cpp">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Ending.cpp">
+      <Filter>MyPG\Tasks\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Player.cpp">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Sprite.cpp">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine_Ver3_81.cpp">
+      <Filter>GE</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Enemy00.cpp">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Item.cpp">
+      <Filter>MyPG\Tasks\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Item01.cpp">
+      <Filter>MyPG\Tasks\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Item02.cpp">
+      <Filter>MyPG\Tasks\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Shot00.cpp">
+      <Filter>MyPG\Tasks\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_gameBG.cpp">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Map2D.cpp">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myLib.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="EFile.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Mesh.h">
+      <Filter>LIB\DG2014\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Texture.h">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_VertexBuffer.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_VertexContainer.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_IndexBuffer.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_InputLayout.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Image.h">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Effect.h">
+      <Filter>LIB\DG2014\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Font.h">
+      <Filter>LIB\DG2014\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_DGObject.h">
+      <Filter>LIB\DG2014\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="xnacollision.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPG.h">
+      <Filter>MyPG</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Ver3_6.h">
+      <Filter>LIB\DG2014</Filter>
+    </ClInclude>
+    <ClInclude Include="DI2014_Ver3_5.h">
+      <Filter>LIB\DI2014</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>LIB\DM2008</Filter>
+    </ClInclude>
+    <ClInclude Include="Dm2008_Ver1_4.h">
+      <Filter>LIB\DM2008</Filter>
+    </ClInclude>
+    <ClInclude Include="BChara.h">
+      <Filter>MyPG</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Title.h">
+      <Filter>MyPG\Tasks\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Game.h">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Ending.h">
+      <Filter>MyPG\Tasks\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Player.h">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Sprite.h">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine_Ver3_81.h">
+      <Filter>GE</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Enemy00.h">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Item.h">
+      <Filter>MyPG\Tasks\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Item01.h">
+      <Filter>MyPG\Tasks\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Item02.h">
+      <Filter>MyPG\Tasks\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Shot00.h">
+      <Filter>MyPG\Tasks\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_gameBG.h">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Map2D.h">
+      <Filter>MyPG\Tasks\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\Shader\MyStdShader.fx" />
+  </ItemGroup>
+</Project>
